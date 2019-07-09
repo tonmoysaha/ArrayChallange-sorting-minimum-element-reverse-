@@ -5,6 +5,7 @@ public class Sortingarray {
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
+        System.out.println("enter count: ");
         int number = scanner.nextInt();
         int[] sortArray = getArraylist(number);
         System.out.println("\n");
@@ -14,7 +15,7 @@ public class Sortingarray {
     }
 
     public static int[] getArraylist(int array) {
-        System.out.println("enter scan number:");
+        System.out.println("enter number:");
         int[] newArray = new int[array];
         for (int i = 0; i < newArray.length; i++) {
             newArray[i] = scanner.nextInt();
